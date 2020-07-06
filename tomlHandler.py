@@ -1,7 +1,7 @@
 import toml
 
-def importToml(filename):
-    return toml.load(filename)
+def findFilePath(filename, rootDir="."):
+    return [os.path.join(r,filename) for r, _, f in os.walk(rootDir) if filename in f]
 
 def merge(dict1, dict2):
     keySet = set(dict1.keys())
@@ -27,8 +27,8 @@ def merge(dict1, dict2):
 
 
 if __name__ == '__main__':
-    filenames = ["Pipfile1", "Pipfile"]
+    filenames = findFilePath("Pipfile")
     tomlData = {}
     for f in filenames:
         tomlData = merge(tomlData, toml.load(f))
-        print(tomlData)
+    print(tomlData)
