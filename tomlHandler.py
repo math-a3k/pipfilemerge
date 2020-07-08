@@ -1,4 +1,5 @@
 import toml
+import os
 
 def findFilePath(filename, rootDir="."):
     return [os.path.join(r,filename) for r, _, f in os.walk(rootDir) if filename in f]
@@ -25,10 +26,14 @@ def merge(dict1, dict2):
             dict1[k] = v
     return dict1
 
-
-if __name__ == '__main__':
-    filenames = findFilePath("Pipfile")
+def updatePipfile():
+    filename = "Pipfile"
+    filenames = findFilePath(filename)
     tomlData = {}
     for f in filenames:
         tomlData = merge(tomlData, toml.load(f))
-    print(tomlData)
+    with open(filename, "w") as wf:
+        toml.dump(tomlData, wf)
+
+if __name__ == '__main__':
+    updatePipfile()
