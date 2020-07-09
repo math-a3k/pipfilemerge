@@ -12,7 +12,8 @@ setup(
     author_email="laurkan@engineer.com",
     long_description=readmeStr,
     long_description_content_type="text/markdown",
-    download_url="https://github.com/lorkaan/merge-pipfile.git",
+    url="https://github.com/lorkaan/merge-pipfile.git",
+    download_url="",
     install_requires =[
         'toml'
     ],
