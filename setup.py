@@ -4,7 +4,7 @@ with open("README.md") as readmeFile:
     readmeStr = readmeFile.read()
 
 setup(
-    name="mergepipfile",
+    name="pipfilemerge",
     version="0.0.5",
     metadata_version="1.0",
     description="Merge the Pipfiles into a single global Pipfile",
