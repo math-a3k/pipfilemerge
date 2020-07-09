@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: mergepipfile
-Version: 0.0.4
+Version: 0.0.5
 Summary: Merge the Pipfiles into a single global Pipfile
-Home-page: UNKNOWN
+Home-page: https://github.com/lorkaan/merge-pipfile.git
 Author: Laurkan Rodriguez
 Author-email: laurkan@engineer.com
 License: UNKNOWN
-Download-URL: https://github.com/lorkaan/merge-pipfile.git
+Download-URL: https://github.com/lorkaan/pipfilemerge/archive/v0.0.5.tar.gz
 Description: Merge Pipfile
         ==============
         

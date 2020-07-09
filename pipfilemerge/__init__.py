@@ -1,1 +1,3 @@
-import tomlhandler
+from pipfilemerge import tomlHandler
+
+update = tomlHandler.updatePipfile
