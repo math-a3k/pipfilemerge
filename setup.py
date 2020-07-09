@@ -3,6 +3,9 @@ from setuptools import setup, find_packages
 with open("README.md") as readmeFile:
     readmeStr = readmeFile.read()
 
+install_requires =[
+    'toml'
+]
 
 setup(
     name="mergepipfile",
