@@ -5,7 +5,7 @@ with open("README.md") as readmeFile:
 
 setup(
     name="mergepipfile",
-    version="0.0.3",
+    version="0.0.4",
     metadata_version="1.0",
     description="Merge the Pipfiles into a single global Pipfile",
     author="Laurkan Rodriguez",

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: mergepipfile
-Version: 0.0.3
+Version: 0.0.4
 Summary: Merge the Pipfiles into a single global Pipfile
 Home-page: UNKNOWN
 Author: Laurkan Rodriguez
