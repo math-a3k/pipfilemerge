@@ -3,10 +3,6 @@ from setuptools import setup, find_packages
 with open("README.md") as readmeFile:
     readmeStr = readmeFile.read()
 
-install_requires =[
-    'toml'
-]
-
 setup(
     name="mergepipfile",
     version="0.0.3",
@@ -16,7 +12,10 @@ setup(
     author_email="laurkan@engineer.com",
     long_description=readmeStr,
     long_description_content_type="text/markdown",
-    url="https://github.com/lorkaan/merge-pipfile.git",
+    download_url="https://github.com/lorkaan/merge-pipfile.git",
+    install_requires =[
+        'toml'
+    ],
     packages=find_packages(),
     classifiers=[
         "Intended Audience :: Developers",
