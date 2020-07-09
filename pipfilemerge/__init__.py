@@ -1,1 +1,1 @@
-from pipfileMerge.tomlHandler import updatePipfile
+import tomlhandler

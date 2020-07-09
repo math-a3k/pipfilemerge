@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+mergepipfile.egg-info/PKG-INFO
+mergepipfile.egg-info/SOURCES.txt
+mergepipfile.egg-info/dependency_links.txt
+mergepipfile.egg-info/requires.txt
+mergepipfile.egg-info/top_level.txt
+pipfilemerge/__init__.py
+pipfilemerge/tomlHandler.py
