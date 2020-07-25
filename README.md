@@ -30,4 +30,5 @@ Usage
 Or within a script
 
 `import pipfilemerge`
+
 `pipfilemerge.update()`
