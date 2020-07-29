@@ -37,4 +37,3 @@ import pipfilemerge
 ```
 pipfilemerge.update()
 ```
-
