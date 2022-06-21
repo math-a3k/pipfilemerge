@@ -21,7 +21,7 @@ def merge(dict1, dict2):
                 else:
                     dict1[k] = merge(dict1[k], v)
             else:
-                dict1[k] = [dict1[k], v]
+                dict1[k] = ",".join([dict1[k], v])
         else:
             dict1[k] = v
     return dict1
